@@ -1,0 +1,25 @@
+{
+  "name": "inuit-block",
+  "version": "0.1.2",
+  "description": "A simple stacked image-with-text in the inuitcss framework",
+  "main": "_objects.block.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inuitcss/objects.block.git"
+  },
+  "author": "Harry Roberts <harry@csswizardry.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/inuitcss/objects.block/issues"
+  },
+  "homepage": "https://github.com/inuitcss/objects.block",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "dependencies": {
+    "inuit-defaults": "~0.2.0",
+    "inuit-mixins": "~0.2.2"
+  }
+}

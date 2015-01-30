@@ -25,6 +25,10 @@ module via a Git Submodule, or copy and paste.
 
     $ bower install --save inuit-block
 
+Install using npm:
+
+    $ npm install --save inuit-block
+
 Once installed, `@import` into your project in its Objects layer:
 
     @import "bower_components/inuit-block/objects.block";

@@ -79,7 +79,7 @@ $inuit-enable-block--right:     false !default;
 
             .#{$inuit-block-namespace}block--small > &,
             %#{$inuit-block-namespace}block--small > & {
-                margin-bottom: $inuit-block-gutter--small
+                margin-bottom: $inuit-block-gutter--small;
             }
 
         }

@@ -128,7 +128,7 @@ $inuit-enable-block--right:     false !default;
 
 
 
-@if ($inuit-enable-block--huge == true) {
+@if ($inuit-enable-block--right == true) {
 
     /**
      * Right-aligned blocks.

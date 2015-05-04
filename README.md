@@ -47,30 +47,30 @@ its Objects layer.
 
 Basic usage of the Block object uses the required classes:
 
-    <div class="u-block">
-        <img src="/path/to/image.png" alt="" class="u-block__img" />
-        <div class="u-block__body">
+    <div class="o-block">
+        <img src="/path/to/image.png" alt="" class="o-block__img" />
+        <div class="o-block__body">
             <p>Text-like content goes here.</p>
         </div>
     </div>
 
-The only valid children of the `.u-block` node are `.u-block__img` and
-`.u-block__body`.
+The only valid children of the `.o-block` node are `.o-block__img` and
+`.o-block__body`.
 
 ## Options
 
 Other, optional classes can supplement the required base classes:
 
-* `.u-block--flush`: remove the space between the stacked image- and text-content.
-* `.u-block--[tiny|small|large|huge]`: alter the spacing between the stacked
+* `.o-block--flush`: remove the space between the stacked image- and text-content.
+* `.o-block--[tiny|small|large|huge]`: alter the spacing between the stacked
   image- and text-content.
-* `.u-block--[center|right]`: align both the image- and text-content.
+* `.o-block--[center|right]`: align both the image- and text-content.
 
 For example:
 
-    <div class="u-block  u-block--small  u-block--center">
-        <img src="/path/to/image.png" alt="" class="u-block__img" />
-        <div class="u-block__body">
+    <div class="o-block  o-block--small  o-block--center">
+        <img src="/path/to/image.png" alt="" class="o-block__img" />
+        <div class="o-block__body">
             <p>Text-like content goes here.</p>
         </div>
     </div>

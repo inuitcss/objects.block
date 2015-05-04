@@ -31,8 +31,8 @@ $inuit-enable-block--right:     false !default;
  * Stacked image-with-text object. A simple abstraction to cover a very commonly
  * occurring design pattern.
  */
-.#{$inuit-block-namespace}u-block,
-%#{$inuit-block-namespace}u-block {
+.#{$inuit-block-namespace}o-block,
+%#{$inuit-block-namespace}o-block {
     display: block;
 }
 
@@ -40,8 +40,8 @@ $inuit-enable-block--right:     false !default;
     /**
      * 1. Eliminate whitespace around images.
      */
-    .#{$inuit-block-namespace}u-block__img,
-    %#{$inuit-block-namespace}u-block__img {
+    .#{$inuit-block-namespace}o-block__img,
+    %#{$inuit-block-namespace}o-block__img {
         vertical-align: middle; /* [1] */
         margin-bottom: $inuit-block-gutter;
 
@@ -51,8 +51,8 @@ $inuit-enable-block--right:     false !default;
              * No space between the image and the text content.
              */
 
-            .#{$inuit-block-namespace}u-block--flush > &,
-            %#{$inuit-block-namespace}u-block--flush > & {
+            .#{$inuit-block-namespace}o-block--flush > &,
+            %#{$inuit-block-namespace}o-block--flush > & {
                 margin-bottom: 0;
             }
 
@@ -64,8 +64,8 @@ $inuit-enable-block--right:     false !default;
              * Tiny space between the image and the text content.
              */
 
-            .#{$inuit-block-namespace}u-block--tiny > &,
-            %#{$inuit-block-namespace}u-block--tiny > & {
+            .#{$inuit-block-namespace}o-block--tiny > &,
+            %#{$inuit-block-namespace}o-block--tiny > & {
                 margin-bottom: $inuit-block-gutter--tiny;
             }
 
@@ -77,8 +77,8 @@ $inuit-enable-block--right:     false !default;
              * Small space between the image and the text content.
              */
 
-            .#{$inuit-block-namespace}u-block--small > &,
-            %#{$inuit-block-namespace}u-block--small > & {
+            .#{$inuit-block-namespace}o-block--small > &,
+            %#{$inuit-block-namespace}o-block--small > & {
                 margin-bottom: $inuit-block-gutter--small
             }
 
@@ -90,8 +90,8 @@ $inuit-enable-block--right:     false !default;
              * Large space between the image and the text content.
              */
 
-            .#{$inuit-block-namespace}u-block--large > &,
-            %#{$inuit-block-namespace}u-block--large > & {
+            .#{$inuit-block-namespace}o-block--large > &,
+            %#{$inuit-block-namespace}o-block--large > & {
                 margin-bottom: $inuit-block-gutter--large;
             }
 
@@ -103,8 +103,8 @@ $inuit-enable-block--right:     false !default;
              * Huge space between the image and the text content.
              */
 
-            .#{$inuit-block-namespace}u-block--huge > &,
-            %#{$inuit-block-namespace}u-block--huge > & {
+            .#{$inuit-block-namespace}o-block--huge > &,
+            %#{$inuit-block-namespace}o-block--huge > & {
                 margin-bottom: $inuit-block-gutter--huge;
             }
 
@@ -119,8 +119,8 @@ $inuit-enable-block--right:     false !default;
     /**
      * Text-content.
      */
-    .#{$inuit-block-namespace}u-block__body,
-    %#{$inuit-block-namespace}u-block__body {
+    .#{$inuit-block-namespace}o-block__body,
+    %#{$inuit-block-namespace}o-block__body {
         display: block;
     }
 
@@ -134,8 +134,8 @@ $inuit-enable-block--right:     false !default;
      * Right-aligned blocks.
      */
 
-    .#{$inuit-block-namespace}u-block--right,
-    %#{$inuit-block-namespace}u-block--right {
+    .#{$inuit-block-namespace}o-block--right,
+    %#{$inuit-block-namespace}o-block--right {
         text-align: right;
     }
 
@@ -147,8 +147,8 @@ $inuit-enable-block--right:     false !default;
      * Center-aligned blocks.
      */
 
-    .#{$inuit-block-namespace}u-block--center,
-    %#{$inuit-block-namespace}u-block--center {
+    .#{$inuit-block-namespace}o-block--center,
+    %#{$inuit-block-namespace}o-block--center {
         text-align: center;
     }
 
